@@ -1,13 +1,11 @@
 ---
-title: 'Assessed Practical I: Predicting the Olympic Games'
+title: 'Predicting the Olympic Games'
 author: "Yashdhar Gandhi"
 date: "2024-04-07"
 output: 
   html_document:
     number_sections: true
 ---
-Student Number: "201783891"
-Email: 'mm23ysg@leeds.ac.uk'
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
@@ -19,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE)
 The Olympic Games have grown into a cultural performance of global proportion. Participants in the Games—athletes, officials, dignitaries, press, technicians, support personnel, as well as artists, performers, scientists, and world youth campers attending ancillary congresses and exhibitions—now number in the scores of thousands and are drawn from as many as 151 nations.(MacAloon, 2023).
 Medal counts have become more and more important throughout time as a measure of a nation's accomplishments both nationally and athletically. However, the traditional medal count may not fully reflect a country's sporting success, especially for smaller nations or those with differing socioeconomic backgrounds.
 
-In this assessed practical, we use statistical learning to forecast the medal count of countries competing in the Olympic Games. Our study focuses on the relationship between a country's population, GDP, and number of medals earned. Although the total number of medals has historically been the focus, per capita metrics and accounting for economic inequality have become important aspects to examine when assessing a country's success.
+In this, we use statistical learning to forecast the medal count of countries competing in the Olympic Games. Our study focuses on the relationship between a country's population, GDP, and number of medals earned. Although the total number of medals has historically been the focus, per capita metrics and accounting for economic inequality have become important aspects to examine when assessing a country's success.
 
 The dataset comprises information from 71 countries that competed in the last three Olympics, including population, GDP, and medal tallies. We use statistical methods, such as linear regression, to identify trends in the population and GDP-based medal counts. In addition, we study the value of log-transforming outcomes and create unique regression models. This practical allows us to apply statistical approaches while simultaneously evaluating the prediction efficacy of various models in Olympic outcomes, so improving our understanding of the factors that influence a country's success in this global athletic event.
 
