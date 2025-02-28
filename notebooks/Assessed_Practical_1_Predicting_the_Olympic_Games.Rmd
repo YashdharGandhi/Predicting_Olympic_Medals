@@ -6,8 +6,6 @@ output:
   html_document:
     number_sections: true
 ---
-Student Number: "201783891"
-Email: 'mm23ysg@leeds.ac.uk'
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
