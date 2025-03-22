@@ -1,4 +1,4 @@
-# Predicting Olympic Medals
+# Olympic Medal Forecasting Using Macroeconomic Indicators
 
 ## Overview
 This project analyzes the relationship between a country's GDP, population, and Olympic medal count using various statistical models.
